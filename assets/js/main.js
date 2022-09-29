@@ -226,3 +226,14 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 });
+
+///testes///
+
+const formulario = document.querySelector('.email-form');
+formulario.addEventListener('submit', () => console.log(formulario));
+
+const sendButton = document.querySelectorAll('button.sendButton');
+console.log(sendButton);
+sendButton.addEventListener('click', mostrarTeste());
+
+function mostrarTeste() {}
